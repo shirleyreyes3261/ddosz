@@ -1,6 +1,4 @@
 FROM alpine
-RUN apt update
-RUN apt upgrade
 RUN git clone https://github.com/MatrixTM/MHDDoS
 RUN cd MHDDoS/
 RUN  pip install -r requirements.txt
