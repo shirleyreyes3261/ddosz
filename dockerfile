@@ -1,4 +1,5 @@
 FROM ubuntu:22.04
+RUN apt install git -y
 RUN git clone https://github.com/MatrixTM/MHDDoS
 RUN cd MHDDoS/
 RUN  pip install -r requirements.txt
