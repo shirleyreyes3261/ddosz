@@ -1,4 +1,4 @@
-FROM ubuntu:22.04
+FROM alpine
 RUN apt update
 RUN apt upgrade
 RUN git clone https://github.com/MatrixTM/MHDDoS
